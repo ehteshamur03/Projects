@@ -1,0 +1,324 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    scroll-behavior: smooth;
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    font-size: 80px;
+    margin-left: 85px;
+    color: rgba(220, 187, 103, 0.941);
+    margin-bottom: -10px;
+
+}
+
+h3 {
+    font-size: 25px;
+    margin-left: 85px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    color: rgba(220, 187, 103, 0.941);
+    padding-left: 0px;
+}
+
+.content {
+    margin-left: 85px;
+    margin-top: 5px;
+    font-size: 20px;
+    margin-right: 600px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 20px 55px;
+    padding-bottom: 15px;
+}
+
+.social1 {
+    margin-left: 75px;
+    margin-top: 20px;
+    font-size: 17px;
+    margin-right: 610px;
+    text-align: center;
+    display: flex;
+    width: 595px;
+    align-items: center;
+}
+
+.part1 {
+    width: 50%;
+    font-weight: bolder;
+}
+
+.part2 {
+    width: 50%;
+    font-weight: bolder;
+}
+
+#dribble {
+    border: 2px solid rgba(220, 187, 103, 0.941);
+    padding: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+#article {
+    border: 2px solid rgba(220, 187, 103, 0.941);
+    padding: 30px;
+    margin: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+#instagram {
+    border: 2px solid rgba(220, 187, 103, 0.941);
+    padding: 30px;
+    margin: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+#behance {
+    border: 2px solid rgba(220, 187, 103, 0.941);
+    padding: 30px;
+    margin: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 20px;
+
+}
+
+#pinterest {
+    border: 2px solid rgba(220, 187, 103, 0.941);
+    padding: 30px;
+    margin: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+#view {
+    border: 2px solid rgba(220, 187, 103, 0.941);
+    padding: 10px;
+    margin: 10px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.hire {
+    margin-left: 85px;
+    margin-top: 15px;
+    font-size: 17px;
+    margin-right: 610px;
+    text-align: center;
+    display: flex;
+    width: 575px;
+    justify-content: center;
+    background-color: rgba(220, 187, 103, 0.941);
+    font-weight: bolder;
+}
+
+.hire a {
+    background-color: rgb(205 176 102 / 94%);
+    padding: 20px 10px;
+}
+
+.copy {
+    height: 85px;
+}
+
+.copy p {
+    margin-left: 75px;
+    padding-top: 35px;
+    color: rgba(255, 255, 255, 0.941);
+    font-size: 17px;
+
+}
+
+#behance:hover {
+    background-color: rgba(220, 187, 103, 0.941);
+    transition: 500ms;
+    transform: scaleX(105%);
+    /* cursor: pointer; */
+}
+
+#instagram:hover {
+    background-color: rgba(220, 187, 103, 0.941);
+    transition: 500ms;
+    transform: scaleX(105%);
+    /* cursor: pointer; */
+}
+
+#dribble:hover {
+    background-color: rgba(220, 187, 103, 0.941);
+    transition: 500ms;
+    transform: scaleX(105%);
+    /* cursor: pointer; */
+}
+
+#view:hover {
+    background-color: rgba(220, 187, 103, 0.941);
+    transition: 500ms;
+    transform: scaleX(105%);
+    /* cursor: pointer; */
+}
+
+#article:hover {
+    background-color: rgba(220, 187, 103, 0.941);
+    transition: 500ms;
+    transform: scaleX(105%);
+    /* cursor: pointer; */
+}
+
+#pinterest:hover {
+    background-color: rgba(220, 187, 103, 0.941);
+    transition: 500ms;
+    transform: scaleX(105%);
+    /* cursor: pointer; */
+}
+
+#behance p {
+    padding: 10px;
+}
+
+#behance:hover a {
+    background-color: rgb(205 176 102 / 94%);
+    transition: 500ms;
+    transform: scaleX(105%);
+    cursor: pointer;
+}
+
+#dribble:hover a {
+    background-color: rgb(205 176 102 / 94%);
+    transition: 500ms;
+    transform: scaleX(105%);
+    cursor: pointer;
+}
+
+#article:hover a {
+    background-color: rgb(205 176 102 / 94%);
+    transition: 500ms;
+    transform: scaleX(105%);
+    cursor: pointer;
+}
+
+#instagram:hover a {
+    background-color: rgb(205 176 102 / 94%);
+    transition: 500ms;
+    transform: scaleX(105%);
+    cursor: pointer;
+}
+
+#view:hover a {
+    background-color: rgb(205 176 102 / 94%);
+    transition: 500ms;
+    transform: scaleX(105%);
+    cursor: pointer;
+}
+
+#pinterest:hover a {
+    background-color: rgb(205 176 102 / 94%);
+    transition: 500ms;
+    transform: scaleX(105%);
+    cursor: pointer;
+}
+
+.container {
+    height: 100%;
+    width: 30%;
+    position: absolute;
+    transform: translate(-108%, -75%);
+    top: 100%;
+    padding-top: 100px;
+    margin-bottom: 0px;
+    left: 95%;
+    margin-left: 10px;
+    overflow: hidden;
+    /* clip-path: circle(50.0% at 50% 50%); */
+}
+
+.img {
+    display: flex;
+    width: 90%;
+    animation: slide 25s linear infinite;
+    animation-delay: 25ms;
+    margin-top: 50%;
+    height: 350px;
+    background-size: 100% 100%;
+    background-image: url("download1.jpeg");
+    /* transform: translateY(clip-path); */
+}
+
+/* .img :active::before {
+    clip-path: circle(50% at 0 50%);
+    transition: 2s;
+    transition-property: clip-path;
+} */
+
+@keyframes slide {
+    0% {
+        background-image: url("download.jpeg");
+    }
+
+    25% {
+        background-image: url("download(1).jpeg");
+    }
+
+    50% {
+        background-image: url("download(2).jpeg");
+    }
+
+    75% {
+        background-image: url("images.jpeg");
+    }
+
+    100% {
+        background-image: url("download.jpeg");
+    }
+}
+
+/* .img {
+    display: grid;
+    place-items: center;
+    padding-left: 300px;
+    margin-left:180px;
+    /* padding-right: 300px; 
+    width: 100%;
+    height: 300px;
+    background-size: 100% 100%;
+    animation: image 20s linear infinite;
+    /* animation-delay: 2ms; 
+    background-image: url("logo1.jpg");
+    position:relative;
+}
+
+@keyframes image {
+     0% {
+        background-image: url("logo1.jpg");
+    }
+
+    25% {
+        background-image: url("logo2.jpg");
+    }
+
+    50% {
+        background-image: url("logo3.jpg");
+    }
+
+    75% {
+        background-image: url("logo4.jpg");
+    }
+
+    100% {
+        background-image: url("logo1.jpg");
+    }
+} */
