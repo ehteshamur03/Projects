@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goldberg Fitness</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/pexels-anush-gorak-1431282.jpg');
+        background-size: 1263px;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 1263px;
+    }
+
+    .left {
+        /* border: 2px solid blue; */
+        display: inline-block;
+        position: relative;
+        left: 4px;
+        top: 22.5px;
+        font-style: italic;
+        /* width: 450px; */
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .left img {
+        text-align: center;
+        margin-top: 0px;
+        margin-left: 30px;
+        width: 49px;
+        filter: invert(100);
+        /* height: 30px;  */
+    }
+
+    .mid {
+        /* border: 2px solid green; */
+        font-size: 20px;
+        display: block;
+        width: 36%;
+        margin-top: -60px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+    }
+
+    .right {
+        /* border: 2px solid red; */
+        display: inline-block;
+        position: absolute;
+        right: 4px;
+        top: 26.5px;
+        /* width: 390px; */
+    }
+
+    .navbar {
+        display: inline-block;
+        color: white;
+    }
+
+    .navbar li {
+        display: inline-block;
+        color: white;
+    }
+
+    .navbar li a {
+        color: white;
+        list-style: none;
+        text-decoration: none;
+        margin-left: 10px;
+        padding: 2px;
+        font-size: 23px;
+    }
+
+    .navbar li a:hover {
+        color: #7b7b7b;
+        text-decoration: underline;
+    }
+
+    .navbar li a:active {
+        background-color: rgba(221, 250, 249, 0.297);
+        border-radius: 30px;
+    }
+
+    #search {
+        border: 2px solid black;
+        padding: 3px 10px;
+        margin-top: 3px;
+        cursor: pointer;
+    }
+
+    #search:hover {
+        background-color: #ffeeee;
+        text-decoration: wavy;
+    }
+
+    .btn {
+        float: inline-block;
+        margin: 6px auto;
+        width: 70px;
+        /* border: 2px solid red; */
+        border-radius: 14px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bolder;
+        cursor: pointer;
+        background-color: rgb(52, 49, 49);
+        color: white;
+        text-align: center;
+    }
+
+    .btn:hover {
+        background-color: rgb(255, 255, 255);
+        color: #656464;
+        text-decoration: underline;
+
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 47px 160px;
+        width: 300px;
+        height: 310px;
+        border-radius: 35px;
+    }
+
+    .container h4 {
+        text-align: center;
+        font-size: 20px;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .container input {
+        padding: 5px;
+        /* margin: auto; */
+        width: 230px;
+        text-align: center;
+        margin-top: 16px;
+        margin-left: 31px;
+        margin-right: 31px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .container input:hover {
+        color: #ff0000;
+        background-color: #c7c2c2;
+
+    }
+
+    .container .btn {
+        margin-top: 13px;
+        font-size: 22px;
+        width: 100px;
+        height: 30px;
+    }
+
+    a:link {
+        text-decoration: none;
+    }
+
+    a:visited {
+
+        text-decoration: none;
+
+    }
+
+    a:hover {
+
+        text-decoration: none;
+
+    }
+
+    a:active {
+        text-decoration: none;
+    }
+</style>
+</head>
+<body>
+    <header>
+        <div class="left">
+            <img src="img/download.png" alt="blank" id="photo"> <br>
+            Goldberg Fitness
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="https://www.google.com/" target="_blank" class="active">Home</a></li>
+                <li><a href="#" class="active">About Us</a></li>
+                <li><a href="#" class="active">Training</a></li>
+                <li><a href="#" class="active">Contact Us</a></li>
+            </ul>
+             <!-- <input type="text" name="search" id="search" placeholder="Search Here"> -->
+        </div>
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">
+                <a class="tag" target="_blank">Email
+                    Us</a></button>
+        </div>
+    </header>
+        <div class="container">
+            <h4>Join Our GYM</h4>
+            <div class="form-group">
+                <input type="text" placeholder="Enter Your Name">
+                <input type="text" placeholder="Enter Your Contact No">
+                <input type="text" placeholder="Enter Your Adress">
+                <input type="text" placeholder="Enter Your Body Type">
+            </div>
+            <div class="btn">
+                Submit
+            </div>
+        </div>
+</body>
+</html>
