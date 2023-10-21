@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!-- saved from url=(0026)http://localhost:8000/home -->
+<html lang="en"><script id="allow-copy_script">(function agent() {
+    let unlock = false
+    document.addEventListener('allow_copy', (event) => {
+      unlock = event.detail.unlock
+    })
+
+    const copyEvents = [
+      'copy',
+      'cut',
+      'contextmenu',
+      'selectstart',
+      'mousedown',
+      'mouseup',
+      'mousemove',
+      'keydown',
+      'keypress',
+      'keyup',
+    ]
+    const rejectOtherHandlers = (e) => {
+      if (unlock) {
+        e.stopPropagation()
+        if (e.stopImmediatePropagation) e.stopImmediatePropagation()
+      }
+    }
+    copyEvents.forEach((evt) => {
+      document.documentElement.addEventListener(evt, rejectOtherHandlers, {
+        capture: true,
+      })
+    })
+  })()</script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HARRY DANCE ACADEMY</title>
+<link rel="stylesheet" href="./HARRY DANCE ACADEMY_files/style1.css">
+</head>
+<body>
+<nav id="navbar">
+<ul>
+<div id="logo"><img src="./HARRY DANCE ACADEMY_files/logoo.jpg" alt="" srcset=""></div>
+<li><a href="http://localhost:8000/home">Home</a></li>
+<li><a href="http://localhost:8000/">About</a></li>
+<li><a href="http://localhost:8000/">Class Info</a></li>
+<li><a href="http://localhost:8000/contact">Contact Us</a></li>
+</ul>
+<div id="name">
+<h4>HRA</h4>
+</div>
+</nav>
+<div id="introsection">Welcome To Harry's Dance Academy<div class="small">Eat Sleep Dance Repeat</div>
+</div>
+<div id="missionsection">
+<h3>Our Mission</h3>
+<div class="card">
+<h3>Dance perfection</h3>
+<div class="card-box">
+<div class="card-img">
+<img src="./HARRY DANCE ACADEMY_files/1.png" alt="" srcset="">
+</div>
+<div class="card-content">
+<p> This is the best dance academy of the universe</p>
+</div>
+</div>
+</div>
+<div class="card">
+<h3>Dance the way you like</h3>
+<div class="card-box">
+<div class="card-img">
+<img src="./HARRY DANCE ACADEMY_files/2.png" alt="" srcset="">
+</div>
+<div class="card-content">
+<p> This is the best dance academy of the universe</p>
+</div>
+</div>
+</div>
+<div class="card">
+<h3>Expectation Teaching</h3>
+<div class="card-box">
+<div class="card-img">
+<img src="./HARRY DANCE ACADEMY_files/3.png" alt="" srcset="">
+</div>
+<div class="card-content">
+<p> This is the best dance academy of the universe</p>
+</div>
+</div>
+</div>
+</div>
+<div id="sponsorsection">
+<p> Our Sponsor's</p>
+<div id="sponsor">
+<a href="https://www.apple.in/"><img src="./HARRY DANCE ACADEMY_files/logo1.png" alt="" class="logo1"></a>
+<a href="https://www.microsoftindia.com/"><img src="./HARRY DANCE ACADEMY_files/logo2.png" alt="" class="logo2"></a>
+<a href="https://www.hp.com/"><img src="./HARRY DANCE ACADEMY_files/logo3.png" alt="" class="logo3"></a>
+<a href="https://www.skype.com/"><img src="./HARRY DANCE ACADEMY_files/logo4.png" alt="" class="logo4"></a>
+</div>
+</div>
+<footer>Copyright © 2023 HarryDanceAcademy.com</footer>
+
+</body></html>
